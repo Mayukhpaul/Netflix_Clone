@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  z-index: 10;
+}
+
+.navbar_netflix {
+  height: 100%;
+  width: 125px;
+}
+
+.navbar_nav_items {
+  display: flex;
+  gap: 10px;
+}
+
+.netflix_logo {
+  width: 100%;
+  height: 100%;
+}
+
+.language_drop_down {
+  background: transparent;
+  background: none;
+  color: white;
+}
+
+.dropdown_container {
+  border: 1px solid rgb(189, 189, 189);
+  padding: 0.4rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.signin_button {
+  border: #dc030f;
+  background-color: #dc030f;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  height: 35px;
+  width: 100px;
+}
+
+.hero_bg_img_cont {
+  width: 100%;
+  height: 700px;
+}
+
+.hero_bg_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero_bg_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero_card {
+  position: absolute;
+  top: 30%;
+  left: 21%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero_title {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.hero_subtitle,
+.hero_desc {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.email {
+  width: 450px;
+  height: 60px;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  background: transparent;
+  border-color: white;
+}
+
+.get_started {
+  font-size: large;
+  width: 170px;
+  height: 60px;
+  background-color: #dc030f;
+  border: 1px solid #dc030f;
+  color: white;
+}
+
+.card-1,
+.card-3 {
+  border-top: 8px rgb(69, 69, 69);
+  padding: 50px;
+}
+
+.card-1 {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-1 {
+  padding-left: 80px;
+}
+
+.card-1 video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 65px;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+.card-1 img {
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.style-cards h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.style-cards h3 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.card-2 {
+  display: flex;
+}
+
+.desc-2 {
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+
+.card-3 {
+  display: flex;
+  height: 650px;
+}
+
+.desc-3 {
+  position: relative;
+  top: 150px;
+  left: 70px;
+}
+
+.card-3 img {
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+
+.card-3 video {
+  position: relative;
+  width: 400px;
+  bottom: 400px;
+  left: 370px;
+  z-index: -1;
+}
+
+.footer,
+.footer a {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding-left: 50px;
+}
+
+.footer li {
+  line-height: 1.9;
+}
+
+.rule {
+  background-color: #676666;
+  border: 1px solid #676666;
+  height: 7px;
+}
+
+.rule-1 {
+  background-color: #464646;
+  border: 1px solid #464646;
+  height: 7px;
+  margin-top: 100px;
+}
+
+.rule-2 {
+  background-color: #464646;
+  border: 1px solid #464646;
+  height: 7px;
+  margin-bottom: 70px;
+}
+
+.footer {
+  margin-bottom: 100px;
+  font-size: large;
+}
+
+.footer-right {
+  margin-left: 200px;
+}
+
+.card_5{
+  width: 100%;
+}
+
+.desc_5{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.desc_6{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  text-align: center;
+  padding: 70px;
+}
+
+.accordion-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid black;
+  margin:10px;
+}
+
+.accordion-title {
+  cursor: pointer;
+  padding: 30px;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  font-size: large;
+  border: 1px solid black;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+  background-color: #333;
+  color: #fff;
+  font-size: large;
+  border: 1px solid black;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+  padding: 20px;
+}
+
+.accor {
+  display: flex;
+  justify-content: space-between;
+}
